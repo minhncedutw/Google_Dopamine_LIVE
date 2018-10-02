@@ -1,4 +1,4 @@
-name: mayavi
+name: dopamine_rl
 channels:
   - defaults
   - conda-forge
