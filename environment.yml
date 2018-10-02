@@ -1,0 +1,11 @@
+name: mayavi
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.6
+  - pip:
+    - cython
+    - numpy
+
