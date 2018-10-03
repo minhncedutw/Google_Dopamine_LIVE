@@ -9,7 +9,7 @@ from dopamine.agents.dqn import dqn_agent
 from dopamine.atari import run_experiment
 from absl import flags
 
-BASE_PATH = './tmp/dope_run'
+BASE_PATH = '../tmp/dope_run'
 GAME = 'Asterix'
 LOG_PATH = os.path.join(BASE_PATH, 'basic_agent', GAME)
 
@@ -32,7 +32,7 @@ class BasicAgent(object):
         return self._last_action
 
     # when it checkpoints during training, anything we should do?
-    def bundle_and_checkpoint(self):
+    def bundle_and_checkpoint(self, unused_checkpoint_dir, unused_iteration):
         pass
 
     # loading from checkpoint
