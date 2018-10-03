@@ -4,26 +4,11 @@ channels:
   - defaults
 dependencies:
   - pip=18.0
-  - ca-certificates
-  - certifi
-  - libedit
-  - libffi
-  - libgcc-ng
-  - libstdcxx-ng
-  - numpy
-  - ncurses
-  - openssl
   - python=3.6
-  - readline
-  - setuptools
-  - sqlite
-  - tk
-  - wheel
-  - xz
-  - zlib
   - pip:
-    - tensorflow-gpu
     - atari_py
     - cmake
     - dopamine-rl
+    - numpy
+    - tensorflow-gpu
 
